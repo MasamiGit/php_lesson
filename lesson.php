@@ -1,8 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Lesson PHP</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		h1{
+			background: #f00;
+			padding: 3px 5px;
+			border-radius: 5px;
+			margin-top:20px;
+		}
+		h3{
+			background: #a1dafb;
+			padding: 3px 5px;
+			border-radius: 5px;
+			margin-top: 10px;
+		}
+		p{
+			background: #b7f9b9;
+			padding: 3px 5px;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+		section{
+			width:800px;
+			margin: 0 auto;
+		}
+	</style>
 </head>
 <body>
 <section>
@@ -38,8 +66,30 @@
 </section>
 
 <section>
-	<h1>Fetch</h1>
+<h1>Merge</h1>
+<h3>Branchで枝分かれしていてものをMasterに統合</h3>
+<p>get merge取り込むブランチ名</p>
+<h3></h3>
+<p></p>
+<h3></h3>
+<p></p>
+<h3></h3>
+<p></p>
+<h3></h3>
+<p></p>
+<h3></h3>
+<p></p>
 </section>
 
-</body> 
+<section>
+	<h1>Fetch</h1>
+	<p>get getch</p>
+	<h3>pullとの違い</h3>
+	<p>Pull = Fetch + Merge</p>
+
+	<h3>Master と　origin/master の2つをもつ</h3>
+	<p>Fetchはorigin/masterの情報を更新</p>
+	<p>Masterの更新は行わない</p>
+</section>
+</body>
 </html>
