@@ -10,12 +10,12 @@
 	$hako1 = array('0' => '','1' => 'ネコ' , '2' => '犬', '3' => '馬', '4' => '魚', '5' => '');
 	echo $hako1[1];
 
-	$hako2[] = 'momo';
+	$hako2[] = '林檎';
 	$hako2[] = '梨';
-	$hako2[] = 'satumaimo';
-	$hako2[] = 'kabotya';
-	$hako2[] = 'banana';
-	$hako2[] = 'ringo';
+	$hako2[] = '苺';
+	$hako2[] = '西瓜';
+	$hako2[] = '桃';
+	$hako2[] = '柿';
 	echo $hako2[4];
 	echo '<br>';
 	echo $hako2[1];
