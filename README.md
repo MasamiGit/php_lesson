@@ -6,3 +6,5 @@ phpの学習
 Fetch前の追加
 
 pullで同期
+
+FetchのみMergeはしない
