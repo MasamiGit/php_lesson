@@ -33,10 +33,6 @@
 	echo disp_kensu."<br>";
 
 	echo PHP_VERSION;
-	echo PHP_OS;
-	echo TRUE;
-	echo NULL;
-	echo FALSE;
 
 	?>
 
