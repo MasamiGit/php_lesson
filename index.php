@@ -11,16 +11,21 @@
 	echo $hako1[1];
 
 	$hako2[] = 'momo';
-	$hako2[] = 'nasi';
+	$hako2[] = '梨';
 	$hako2[] = 'satumaimo';
 	$hako2[] = 'kabotya';
 	$hako2[] = 'banana';
 	$hako2[] = 'ringo';
 	echo $hako2[4];
+	echo '<br>';
 	echo $hako2[1];
+	echo '<br>';
 	echo $hako2[1];
+	echo '<br>';
 	echo $hako2[1];
+	echo '<br>';
 	echo $hako2[1];
+	echo '<br>';
 
 	$data = array(array('あ','い','う'),array('ネコ','イチゴ'),'人',array(1,2,3));
 	echo $data[0][2];
