@@ -69,16 +69,7 @@
 <h1>Merge</h1>
 <h3>Branchで枝分かれしていてものをMasterに統合</h3>
 <p>get merge取り込むブランチ名</p>
-<h3></h3>
-<p></p>
-<h3></h3>
-<p></p>
-<h3></h3>
-<p></p>
-<h3></h3>
-<p></p>
-<h3></h3>
-<p></p>
+
 </section>
 
 <section>
