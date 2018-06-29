@@ -18,7 +18,7 @@
 	$hako2[] = 'ringo';
 	echo $hako2[4];
 
-	$data = array(array('あa','い','う'),array('ネコ','イチゴ'),'人',array(1,2,3));
+	$data = array(array('あ','い','う'),array('ネコ','イチゴ'),'人',array(1,2,3));
 	echo $data[0][2];
 	echo $data[1][1];
 	echo $data[2];
