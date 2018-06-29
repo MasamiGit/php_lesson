@@ -43,6 +43,7 @@
 	echo PHP_VERSION;
 
 	?>
+<h2>bブランチの操作</h2>
 <h3>ブランチの作成</h3>
 <p>git branch ブランチの名前</p>
 <h3>ブランチ切り替え</h3>
@@ -59,6 +60,13 @@
 <p>git branch -a</p>
 <h3>リモートブランチの一覧</h3>
 <p>git branch -r</p>
+
+<h1>Remote Branch</h1>
+<h3>ブランチをリモートに登録</h3>
+<p>git puch -u origin</p>
+<h3>リモートブランチからローカルブランチを作成</h3>
+<p>git branch ローカルに作成するブランチ　origin/作成元のリモートのブランチ名</p>
+
 
 </body> 
 </html>

@@ -60,5 +60,11 @@
 <h3>リモートブランチの一覧</h3>
 <p>git branch -r</p>
 
+<h2>Remote Branch</h2>
+<h3>ブランチをリモートに登録</h3>
+<p>git puch -u origin</p>
+<h3>リモートブランチからローカルブランチを作成</h3>
+<p>git branch ローカルに作成するブランチ　origin/作成元のリモートのブランチ名</p>
+
 </body> 
 </html>
