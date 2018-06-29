@@ -34,7 +34,6 @@
 	echo TITLE_NAME."<br>";
 	echo title_name."<br>";
 	echo DISP_KENSU."<br>";
-	echo disp_kensu."<br>";
 
 	echo PHP_VERSION;
 
