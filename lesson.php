@@ -183,7 +183,7 @@
 
 
 <section>
-<h1>【14】Rebase リベース</h1>
+<h1>【15】Rebase リベース</h1>
 <h3></h3>
 <p></p>
 <h3></h3>
@@ -192,11 +192,52 @@
 
 
 <section>
-<h1>【15】Fork</h1>
+<h1>【16】Fork</h1>
 <h3>Forkとは</h3>
 <p>他のアカウントのリポジトリを自分のアカウントにコピー</p>
 <h3>Pull Requesut</h3>
 <p>コピーしてきたリポジトリを変更してオリジナルにPullを要請する</p>
+</section>
+
+<section>
+<h1>【17】Reset</h1>
+<h3>git reset HEAD^</h3>
+<p>任意の場所に戻る</p>
+<p>--hard</p>
+<p>--mixed</p>
+<p>--soft</p>
+<h3>git reset --soft HEAD^</h3>
+<p>HEAD^^^</p>
+<p>HEAD~3</p>
+<p>@^^^</p>
+</section>
+
+<section>
+<h1>【18】Revert</h1>
+<h3>Revertとは</h3>
+<p>コミットを取り消す新たなコミットを追加する</p>
+<h3>git revert ID</h3>
+<p>:wq</p>
+</section>
+
+<section>
+<h1>【19】Visual Tool</h1>
+<h3>Source Tree</h3>
+<h3>Github Desktop</h3>
+</section>
+
+<section>
+<h1>【20】GitIgnore</h1>
+<h3>.gitignoreファイルを作成</h3>
+<p>Gitの管理に含めないファイルを指定</p>
+<ul>
+	<li>●コメント</li>
+	<li>#で始まる行はコメントとして扱われる</li>
+</ul>
+<ul>
+	<li>●特定の拡張子</li>
+	<li>*.exe</li>
+</ul>
 </section>
 
 
