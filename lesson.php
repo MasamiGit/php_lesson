@@ -73,6 +73,13 @@
 </section>
 
 <section>
+<h1>【9】Pull</h1>
+<h3>git pull origin master</h3>
+<p></p>
+
+</section>
+
+<section>
 	<h1>【14】Fetch</h1>
 	<p>get getch</p>
 	<h3>pullとの違い</h3>
