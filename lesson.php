@@ -75,7 +75,7 @@
 <section>
 <h1>【9】Pull</h1>
 <h3>git pull origin master</h3>
-<p></p>
+<p>origin masterの変更を取ってくる</p>
 
 </section>
 
@@ -84,7 +84,6 @@
 	<p>get getch</p>
 	<h3>pullとの違い</h3>
 	<p>Pull = Fetch + Merge</p>
-
 	<h3>Master と　origin/master の2つをもつ</h3>
 	<p>Fetchはorigin/masterの情報を更新</p>
 	<p>Masterの更新は行わない</p>
