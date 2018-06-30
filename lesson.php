@@ -70,11 +70,50 @@
 <p>git branch ローカルに作成するブランチ　origin/作成元のリモートのブランチ名</p>
 </section>
 
-<section>
-<h1>Merge</h1>
-<h3>Branchで枝分かれしていてものをMasterに統合</h3>
-<p>get merge取り込むブランチ名</p>
 
+
+<section>
+<h1>【3】Init</h1>
+<h3>git init</h3>
+<p>そのフォルダーをリポジトリに変換する※.gitという隠しフォルダーを作成する</p>
+<p>リポジトリとはGitが管理しているフォルダー</p>
+<p>ログの表示</p>
+</section>
+
+<section>
+<h1>【4】Status</h1>
+<h3>git status</h3>
+<p>リポジトリの状態を表示</p>
+<h3>git log</h3>
+<p>ログの表示</p>
+</section>
+
+<section>
+<h1>【5】Add</h1>
+<h3>git add 変更があったファイル</h3>
+<h3>git add .</h3>
+<p>変更があったファイルをステージに上げるコマンド</p>
+</section>
+
+<section>
+<h1>【6】Commit</h1>
+<h3>git commit</h3>
+<h3>git commit -m 'first commit'</h3>
+<p>コミットするときは必ずコメントを入れる必要がある</p>
+</section>
+
+<section>
+<h1>【7】Github</h1>
+<h3>ユーザー登録</h3>
+<h3>リポジトリの作成</h3>
+<h3>リポジトリの削除</h3>
+</section>
+
+<section>
+<h1>【8】Push</h1>
+<h3>git remote add origin https://github.com/xxxxx/xxxxxx.git</h3>
+<h3>git puch -u origin master 【※プッシュしたいブランチ】</h3>
+<p>GitからGitHubにアップロード</p>
 </section>
 
 <section>
@@ -123,6 +162,14 @@
 <p>ブランチをリモートに登録</p>
 </section>
 
+
+<section>
+<h1>【13】Merge</h1>
+<h3>Branchで枝分かれしていてものをMasterに統合</h3>
+<p>get merge　取り込むブランチ名</p>
+
+</section>
+
 <section>
 	<h1>【14】Fetch</h1>
 	<p>get getch</p>
@@ -132,5 +179,26 @@
 	<p>Fetchはorigin/masterの情報を更新</p>
 	<p>Masterの更新は行わない</p>
 </section>
+
+
+
+<section>
+<h1>【14】Rebase リベース</h1>
+<h3></h3>
+<p></p>
+<h3></h3>
+<p></p>
+</section>
+
+
+<section>
+<h1>【15】Fork</h1>
+<h3>Forkとは</h3>
+<p>他のアカウントのリポジトリを自分のアカウントにコピー</p>
+<h3>Pull Requesut</h3>
+<p>コピーしてきたリポジトリを変更してオリジナルにPullを要請する</p>
+</section>
+
+
 </body>
 </html>
