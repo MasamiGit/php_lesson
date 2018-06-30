@@ -76,7 +76,12 @@
 <h1>【9】Pull</h1>
 <h3>git pull origin master</h3>
 <p>origin masterの変更を取ってくる</p>
+</section>
 
+<section>
+<h1>【10】Clone</h1>
+<h3>git clone http2://git.com/YYYYYY/XXXXXX.git</h3>
+<p>全てのファイルをダウンロード</p>
 </section>
 
 <section>
