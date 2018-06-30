@@ -9,7 +9,7 @@
 		padding: 0;
 	}
 		h1{
-			background: #f00;
+			background: #f20;
 			padding: 3px 5px;
 			border-radius: 5px;
 			margin-top:20px;
