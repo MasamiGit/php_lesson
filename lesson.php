@@ -117,8 +117,10 @@
 
 <section>
 <h1>【12】Remote Branch</h1>
-<h3>Master（自動）というブランチを必ず持つ</h3>
-<p>ブランチ（枝分かれ）をいくつでも持つことができる</p>
+<h3>git push -u origin</h3>
+<p>ブランチをリモートに登録</p>
+<h3>git branch ローカルに作成するブランチ名 origin/作成元のリモートのブランチ名</h3>
+<p>ブランチをリモートに登録</p>
 </section>
 
 <section>
