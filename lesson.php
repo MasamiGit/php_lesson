@@ -97,6 +97,28 @@
 	<li>●機能の追加</li>
 	<li>●バグフィックス</li>
 </ul>
+<h3>git branch ブランチの名前</h3>
+<p>ブランチの作成</p>
+<h3>git checkout ブランチの名前</h3>
+<p>ブランチ切り替え</p>
+<h3>git checkout -b ブランチの名前</h3>
+<p>ブランチの作成と切り替えを同時に行う</p>
+<h3>git branch -d</h3>
+<p>ブランチの削除</p>
+<h3>git branch -m</h3>
+<p>ブランチ名の変更</p>
+<h3>git branch</h3>
+<p>ローカルブランチの一覧</p>
+<h3>git branch -a</h3>
+<p>リモートとローカルのブランチの一覧</p>
+<h3>git branch -r</h3>
+<p>リモートブランチの一覧</p>
+</section>
+
+<section>
+<h1>【12】Remote Branch</h1>
+<h3>Master（自動）というブランチを必ず持つ</h3>
+<p>ブランチ（枝分かれ）をいくつでも持つことができる</p>
 </section>
 
 <section>
