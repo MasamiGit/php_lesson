@@ -99,13 +99,13 @@
 </ul>
 <h3>git branch ブランチの名前</h3>
 <p>ブランチの作成</p>
-<h3>git checkout ブランチの名前</h3>
+<h3>git checkout 行きたいブランチの名前</h3>
 <p>ブランチ切り替え</p>
 <h3>git checkout -b ブランチの名前</h3>
 <p>ブランチの作成と切り替えを同時に行う</p>
-<h3>git branch -d</h3>
+<h3>git branch -d ブランチの名前</h3>
 <p>ブランチの削除</p>
-<h3>git branch -m</h3>
+<h3>git branch -m ブランチの名前</h3>
 <p>ブランチ名の変更</p>
 <h3>git branch</h3>
 <p>ローカルブランチの一覧</p>
