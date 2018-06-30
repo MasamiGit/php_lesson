@@ -26,6 +26,11 @@
 			border-radius: 5px;
 			margin-bottom: 10px;
 		}
+		li{
+			list-style-type: none;
+			padding: 3px 5px;
+			background: #fbf1ad;
+		}
 		section{
 			width:800px;
 			margin: 0 auto;
@@ -81,7 +86,17 @@
 <section>
 <h1>【10】Clone</h1>
 <h3>git clone http2://git.com/YYYYYY/XXXXXX.git</h3>
-<p>全てのファイルをダウンロード</p>
+<p>全てのファイルをリモートからダウンロードし、Gitにクローンを作成する。</p>
+</section>
+
+<section>
+<h1>【11】Branch</h1>
+<h3>Masterというブランチを必ず持つ</h3>
+<p>ブランチ（枝分かれ）をいくつでも持つことができる</p>
+<ul>
+	<li>●機能の追加</li>
+	<li>●バグフィックス</li>
+</ul>
 </section>
 
 <section>
