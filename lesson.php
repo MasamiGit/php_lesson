@@ -73,7 +73,7 @@
 </section>
 
 <section>
-	<h1>Fetch</h1>
+	<h1>【14】Fetch</h1>
 	<p>get getch</p>
 	<h3>pullとの違い</h3>
 	<p>Pull = Fetch + Merge</p>
