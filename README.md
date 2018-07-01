@@ -1,9 +1,12 @@
 # php_lesson
-phpの学習
+【1】Git&GitHub
+【2】Gitの概要
+【3】Init
+【4】Status
+【5】Add
+【6】Commit
+【7】Github
+【8】Push
+【9】Pull
 
-追加しました
-
-pull
-
-Fetch前の追加だよ
 
