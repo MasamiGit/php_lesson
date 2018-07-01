@@ -21,6 +21,7 @@
 			padding: 3px 5px;
 			border-radius: 5px;
 			margin-top: 10px;
+			font-size: 1.3rem;
 		}
 		p{
 			background: #b7f9b9;

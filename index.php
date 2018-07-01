@@ -15,7 +15,7 @@
 	$hako2[] = '苺';
 	$hako2[] = '西瓜';
 	$hako2[] = '桃';
-	$hako2[] = '柿';
+	$hako2[] = '柿kaki';
 	echo $hako2[4];
 	echo '<br>';
 	echo $hako2[1];
