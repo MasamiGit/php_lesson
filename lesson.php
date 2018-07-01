@@ -13,6 +13,7 @@
 			padding: 3px 5px;
 			border-radius: 5px;
 			margin-top:20px;
+			color:#666666;
 		}
 		h3{
 			background: #a1dafb;
