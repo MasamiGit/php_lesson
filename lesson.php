@@ -175,13 +175,13 @@
 <section>
 <h1>【13】Merge</h1>
 <h3>Branchで枝分かれしていてものをMasterに統合</h3>
-<p>get merge　取り込むブランチ名</p>
+<p>git merge　取り込むブランチ名</p>
 
 </section>
 
 <section>
 	<h1>【14】Fetch</h1>
-	<p>get getch</p>
+	<p>git fetch</p>
 	<h3>pullとの違い</h3>
 	<p>Pull = Fetch + Merge</p>
 	<h3>Master と　origin/master の2つをもつ</h3>
