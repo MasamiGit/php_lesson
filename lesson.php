@@ -9,11 +9,10 @@
 		padding: 0;
 	}
 		h1{
-			background: #f20;
 			padding: 3px 5px;
 			border-radius: 5px;
 			margin-top:20px;
-			color:#666666;
+			color:#111111;
 		}
 		h3{
 			background: #a1dafb;
