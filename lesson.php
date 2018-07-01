@@ -70,7 +70,33 @@
 <p>git branch ローカルに作成するブランチ　origin/作成元のリモートのブランチ名</p>
 </section>
 
+<section>
+<h1>【1】Git&GitHub</h1>
+<h3>Gitとは</h3>
+<p>バージョンコントロールシステム</p>
+<ul>
+	<li>スナップショットを取る</li>
+</ul>
+<p>ローカル環境（パソコン）</p>
+<p>ウェブサイト https://git-scm.com/</p>
+<p>ダウンロード</p>
+<lu>
+	<li>git --version</li>
+</lu>
 
+<h3>GitHubとは</h3>
+<p>リモートにある。Gitを使って操作できる</p>
+<ul>
+	<li>チームで同じ環境を共有</li>
+	<li>ローカルのバックアップ</li>
+</ul>
+<p>ウェブサイト https://github.com</p>
+<p>ユーザー登録</p>
+<ul>
+	<li>フリーで利用できる</li>
+	<li>有料版はプライベートで利用できる</li>
+</ul>
+</section>
 
 <section>
 <h1>【3】Init</h1>
