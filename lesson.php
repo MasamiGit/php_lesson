@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lesson PHP</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<style>
 	*{
 		margin: 0;
@@ -13,6 +14,7 @@
 			border-radius: 5px;
 			margin-top:20px;
 			color:#111111;
+			font-size: 1.3rem;
 		}
 		h3{
 			background: #a1dafb;
@@ -34,6 +36,7 @@
 		section{
 			width:800px;
 			margin: 0 auto;
+			font-family: 'Montserrat', sans-serif;
 		}
 	</style>
 </head>
