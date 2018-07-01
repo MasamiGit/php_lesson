@@ -8,5 +8,16 @@
 【7】Github
 【8】Push
 【9】Pull
+10】Clone
+【11】Branch
+【12】Remote Branch
+【13】Merge
+【14】Fetch
+15】Rebase
+【16】Fork
+【17】Reset
+【18】Revert
+【19】Visual Tool
+【20】GitIgnore
 
 
