@@ -44,10 +44,32 @@
 <body>
 <section>
 	<nav>
+		<ul>
+			<li><a href="#num1">【1】Git&GitHub</a></li>
+			<li><a href="#num2">【2】Gitの概要</a></li>
+			<li><a href="#num3">【3】Init</a></li>
+			<li><a href="#num4">【4】Status</a></li>
+			<li><a href="#num5">【5】Add</a></li>
+			<li><a href="#num6">【6】Commit</a></li>
+			<li><a href="#num7">【7】Github</a></li>
+			<li><a href="#num8">【8】Push</a></li>
+			<li><a href="#num9">【9】Pull</a></li>
+			<li><a href="#num10">【10】Clone</a></li>
+			<li><a href="#num11">【11】Branch</a></li>
+			<li><a href="#num12">【12】Remote Branch</a></li>
+			<li><a href="#num13">【13】Merge</li>
+			<li><a href="#num14">【14】Fetch</a></li>
+			<li><a href="#num15">【15】Rebase リベース</a></li>
+			<li><a href="#num16">【16】Fork</a></li>
+			<li><a href="#num17">【17】Reset</a></li>
+			<li><a href="#num18">【18】Revert</a></li>
+			<li><a href="#num19">【19】Visual Tool</a></li>
+			<li><a href="#num20">【20】GitIgnore</a></li>
+		</ul>
 	</nav>
 </section>
 <section>
-<h1>【1】Git&GitHub</h1>
+<h1 id="num1">【1】Git&GitHub</h1>
 <h3>Gitとは</h3>
 <p>バージョンコントロールシステム</p>
 <ul>
@@ -75,7 +97,7 @@
 </section>
 
 <section>
-<h1>【2】Gitの概要</h1>
+<h1 id="num2">【2】Gitの概要</h1>
 <h3>Gitのイメージ</h3>
 <ul>
 	<li>変更のあったファイル</li>
@@ -86,7 +108,7 @@
 
 
 <section>
-<h1>【3】Init</h1>
+<h1 id="num3">【3】Init</h1>
 <h3>git init</h3>
 <p>そのフォルダーをリポジトリに変換するためにinitを行う※.gitという隠しフォルダーを作成する</p>
 <p>リポジトリとはGitが管理しているフォルダー</p>
@@ -94,7 +116,7 @@
 </section>
 
 <section>
-<h1>【4】Status</h1>
+<h1 id="num4">【4】Status</h1>
 <h3>git status</h3>
 <p>リポジトリの状態を表示</p>
 <h3>git log</h3>
@@ -102,47 +124,47 @@
 </section>
 
 <section>
-<h1>【5】Add</h1>
+<h1 id="num5">【5】Add</h1>
 <h3>git add 変更があったファイル</h3>
 <h3>git add .</h3>
 <p>変更があったファイルをステージに上げるコマンド</p>
 </section>
 
 <section>
-<h1>【6】Commit</h1>
+<h1 id="num6">【6】Commit</h1>
 <h3>git commit</h3>
 <h3>git commit -m 'first commit'</h3>
 <p>コミットするときは必ずコメントを入れる必要がある</p>
 </section>
 
 <section>
-<h1>【7】Github</h1>
+<h1 id="num7">【7】Github</h1>
 <h3>ユーザー登録</h3>
 <h3>リポジトリの作成</h3>
 <h3>リポジトリの削除</h3>
 </section>
 
 <section>
-<h1>【8】Push</h1>
+<h1 id="num8">【8】Push</h1>
 <h3>git remote add origin https://github.com/xxxxx/xxxxxx.git</h3>
 <h3>git puch -u origin master 【※プッシュしたいブランチ】</h3>
 <p>GitからGitHubにアップロード</p>
 </section>
 
 <section>
-<h1>【9】Pull</h1>
+<h1 id="num9">【9】Pull</h1>
 <h3>git pull origin master</h3>
 <p>origin masterの変更を取ってくる</p>
 </section>
 
 <section>
-<h1>【10】Clone</h1>
+<h1 id="num10">【10】Clone</h1>
 <h3>git clone http2://git.com/YYYYYY/XXXXXX.git</h3>
 <p>全てのファイルをリモートからダウンロードし、Gitにクローンを作成する。</p>
 </section>
 
 <section>
-<h1>【11】Branch</h1>
+<h1 id="num11">【11】Branch</h1>
 <h3>Master（自動）というブランチを必ず持つ</h3>
 <p>ブランチ（枝分かれ）をいくつでも持つことができる</p>
 <ul>
@@ -168,7 +190,7 @@
 </section>
 
 <section>
-<h1>【12】Remote Branch</h1>
+<h1 id="num12">【12】Remote Branch</h1>
 <h3>git push -u origin</h3>
 <p>ブランチをリモートに登録</p>
 <h3>git branch ローカルに作成するブランチ名 origin/作成元のリモートのブランチ名</h3>
@@ -177,14 +199,14 @@
 
 
 <section>
-<h1>【13】Merge</h1>
+<h1 id="num13">【13】Merge</h1>
 <h3>Branchで枝分かれしていてものをMasterに統合</h3>
 <p>git merge　取り込むブランチ名</p>
 
 </section>
 
 <section>
-	<h1>【14】Fetch</h1>
+	<h1 id="num14">【14】Fetch</h1>
 	<p>git fetch</p>
 	<h3>pullとの違い</h3>
 	<p>Pull = Fetch + Merge</p>
@@ -196,7 +218,7 @@
 
 
 <section>
-<h1>【15】Rebase リベース</h1>
+<h1 id="num15">【15】Rebase リベース</h1>
 <h3></h3>
 <p></p>
 <h3></h3>
@@ -205,7 +227,7 @@
 
 
 <section>
-<h1>【16】Fork</h1>
+<h1 id="num16">【16】Fork</h1>
 <h3>Forkとは</h3>
 <p>他のアカウントのリポジトリを自分のアカウントにコピー</p>
 <h3>Pull Requesut</h3>
@@ -213,7 +235,7 @@
 </section>
 
 <section>
-<h1>【17】Reset</h1>
+<h1 id="num17">【17】Reset</h1>
 <h3>git reset HEAD^</h3>
 <p>任意の場所に戻る</p>
 <p>--hard</p>
@@ -226,7 +248,7 @@
 </section>
 
 <section>
-<h1>【18】Revert</h1>
+<h1 id="num18">【18】Revert</h1>
 <h3>Revertとは</h3>
 <p>コミットを取り消す新たなコミットを追加する</p>
 <h3>git revert ID</h3>
@@ -234,13 +256,13 @@
 </section>
 
 <section>
-<h1>【19】Visual Tool</h1>
+<h1 id="num19">【19】Visual Tool</h1>
 <h3>Source Tree</h3>
 <h3>Github Desktop</h3>
 </section>
 
 <section>
-<h1>【20】GitIgnore</h1>
+<h1 id="num20">【20】GitIgnore</h1>
 <h3>.gitignoreファイルを作成</h3>
 <p>Gitの管理に含めないファイルを指定</p>
 <ul>
@@ -253,6 +275,31 @@
 </ul>
 </section>
 
-
+<section>
+	<nav>
+		<ul>
+			<li><a href="#num1">【1】Git&GitHub</a></li>
+			<li><a href="#num2">【2】Gitの概要</a></li>
+			<li><a href="#num3">【3】Init</a></li>
+			<li><a href="#num4">【4】Status</a></li>
+			<li><a href="#num5">【5】Add</a></li>
+			<li><a href="#num6">【6】Commit</a></li>
+			<li><a href="#num7">【7】Github</a></li>
+			<li><a href="#num8">【8】Push</a></li>
+			<li><a href="#num9">【9】Pull</a></li>
+			<li><a href="#num10">【10】Clone</a></li>
+			<li><a href="#num11">【11】Branch</a></li>
+			<li><a href="#num12">【12】Remote Branch</a></li>
+			<li><a href="#num13">【13】Merge</li>
+			<li><a href="#num14">【14】Fetch</a></li>
+			<li><a href="#num15">【15】Rebase リベース</a></li>
+			<li><a href="#num16">【16】Fork</a></li>
+			<li><a href="#num17">【17】Reset</a></li>
+			<li><a href="#num18">【18】Revert</a></li>
+			<li><a href="#num19">【19】Visual Tool</a></li>
+			<li><a href="#num20">【20】GitIgnore</a></li>
+		</ul>
+	</nav>
+</section>
 </body>
 </html>
