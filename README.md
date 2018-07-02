@@ -8,5 +8,6 @@
 【7】Github
 【8】Push
 【9】Pull
+【10】Clone
 
 
