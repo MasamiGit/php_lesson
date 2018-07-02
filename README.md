@@ -19,7 +19,7 @@
 【18】Revert
 【19】Visual Tool
 【20】GitIgnore
-【20】GitIgnore
+
 
 
 
