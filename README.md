@@ -8,20 +8,17 @@
 【7】Github
 【8】Push
 【9】Pull
-<<<<<<< HEAD
-10】Clone
+【10】Clone
 【11】Branch
 【12】Remote Branch
 【13】Merge
 【14】Fetch
-15】Rebase
+【15】Rebase リベース
 【16】Fork
 【17】Reset
 【18】Revert
 【19】Visual Tool
 【20】GitIgnore
-=======
-【10】Clone
->>>>>>> 73293ac4cf4bdf9f38776f50f3c5669096c7a4fe
+
 
 
