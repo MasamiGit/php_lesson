@@ -4,11 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Lesson PHP</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<style>
 	*{
 		margin: 0;
 		padding: 0;
 	}
+	#content{
+		width:980px;
+		margin:0 auto;
+	}
+	#main{
+	width:800px;
+	float: left;
+}
+	.fixBox {
+   position: fixed;
+   top: 0px;
+   right: 0px;
+}
+
+
 		h1{
 			padding: 3px 5px;
 			border-radius: 5px;
@@ -35,39 +51,39 @@
 			background: #fbf1ad;
 		}
 		section{
-			width:800px;
 			margin: 0 auto;
 			font-family: 'Montserrat', sans-serif;
 		}
-	</style>
+	
+</style>
+<script type="text/javascript">
+
+   // ページの読み込みが完了してから実行
+   $(function() {
+
+      // 途中から固定したいボックスの情報を得る
+      var navBox = $("#fixedNavi");
+      var navOst = navBox.offset().top;
+
+      // スクロールされた際に実行
+      $(window).scroll( function() {
+         // 現在のスクロール位置と、固定したいボックスの位置を比較
+         if( $(window).scrollTop() > navOst ) {
+            // 固定用のclassを付加
+            navBox.addClass("fixBox");
+         }
+         else {
+            // 固定用のclassを削除
+            navBox.removeClass("fixBox");
+         }
+      });
+
+   });
+</script>
 </head>
 <body>
-<section>
-	<nav>
-		<ul>
-			<li><a href="#num1">【1】Git&GitHub</a></li>
-			<li><a href="#num2">【2】Gitの概要</a></li>
-			<li><a href="#num3">【3】Init</a></li>
-			<li><a href="#num4">【4】Status</a></li>
-			<li><a href="#num5">【5】Add</a></li>
-			<li><a href="#num6">【6】Commit</a></li>
-			<li><a href="#num7">【7】Github</a></li>
-			<li><a href="#num8">【8】Push</a></li>
-			<li><a href="#num9">【9】Pull</a></li>
-			<li><a href="#num10">【10】Clone</a></li>
-			<li><a href="#num11">【11】Branch</a></li>
-			<li><a href="#num12">【12】Remote Branch</a></li>
-			<li><a href="#num13">【13】Merge</li>
-			<li><a href="#num14">【14】Fetch</a></li>
-			<li><a href="#num15">【15】Rebase リベース</a></li>
-			<li><a href="#num16">【16】Fork</a></li>
-			<li><a href="#num17">【17】Reset</a></li>
-			<li><a href="#num18">【18】Revert</a></li>
-			<li><a href="#num19">【19】Visual Tool</a></li>
-			<li><a href="#num20">【20】GitIgnore</a></li>
-		</ul>
-	</nav>
-</section>
+	<div id="content">
+<div id="main">
 <section>
 <h1 id="num1">【1】Git&GitHub</h1>
 <h3>Gitとは</h3>
@@ -274,8 +290,9 @@
 	<li>*.exe</li>
 </ul>
 </section>
+</div>
 
-<section>
+<div id="fixedNavi">
 	<nav>
 		<ul>
 			<li><a href="#num1">【1】Git&GitHub</a></li>
@@ -300,6 +317,11 @@
 			<li><a href="#num20">【20】GitIgnore</a></li>
 		</ul>
 	</nav>
-</section>
+
+</div>
+</div>
+<footer>
+	
+</footer>
 </body>
 </html>
